@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+# macOS
+.DS_Store
+# OneDrive temporary
+~$*
