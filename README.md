@@ -38,4 +38,13 @@ streamlit run app.py
 
 Licenza
 
-MIT
+Questo progetto è rilasciato sotto licenza MIT. Se usi questo software in lavori pubblici o in prodotti derivati, ti preghiamo di citare l'autore come indicato nella sezione seguente.
+
+Citazione
+
+Se usi questo software in una pubblicazione, includi la seguente citazione e contatta l'autore se necessario:
+
+Christian Riccio (2026). AHP-ISO. Università degli Studi della Campania Luigi Vanvitelli. Disponibile online: https://ahpiso.streamlit.app/
+
+Contatto email: christian.riccio@unicampania.it
+

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software in a publication, please cite it as follows."
+title: "AHP-ISO"
+version: "0.1.0"
+date-released: "2026-02-05"
+authors:
+  - family-names: "Riccio"
+    given-names: "Christian"
+    affiliation: "Università degli Studi della Campania Luigi Vanvitelli"
+    email: "christian.riccio@unicampania.it"
+url: "https://ahpiso.streamlit.app/"
+about: "Streamlit prototype for AHP with ISO/IEC 27005 validation (ex-post)."
+license: "MIT"
