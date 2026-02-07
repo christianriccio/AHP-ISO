@@ -7,22 +7,6 @@ import csv
 import json
 import math
 
-# =========================================================
-# UI TEXT PLACEHOLDER (da sostituire con il testo reale)
-# =========================================================
-TUTORIAL_PLACEHOLDER = """
-### Come funziona questa valutazione
-
-In questa intervista ti chiediamo di confrontare **a coppie** le fasi principali del ciclo di vita dei dati (Data Life Cycle).
-Per ogni coppia ti chiederemo: *"Quale fase è più importante per noi?"* e *"Quanto è più importante (da 1 a 9)?"*.
-
-- Valore 1 = le due fasi sono ugualmente importanti.
-- Valore 9 = la fase scelta è estremamente più importante dell'altra.
-- Usiamo questi confronti per calcolare i pesi dei criteri con il metodo AHP (Analytic Hierarchy Process).
-- I pesi finali servono per valutare e confrontare diversi modelli di Data Lifecycle (DLM).
-
-Qui sotto trovi una descrizione breve di ogni fase/criterio che confronterai.
-"""
 
 # =========================================================
 # FUNZIONI DI SUPPORTO I/O E STATO
@@ -541,8 +525,6 @@ def main():
     with title_col:
         st.markdown("### AHP - ISO")
         st.caption("Valutazione multi-criterio con supporto multi-esperto + validazione ISO/IEC 27005 (ex-post)")
-    with info_col:
-        st.caption("Versione prototipo • sessione locale")
 
     
 
