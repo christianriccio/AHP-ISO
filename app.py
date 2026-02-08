@@ -1,13 +1,3 @@
-**Fatti**
-Hai chiesto: (i) tutte le stringhe dell’app in inglese (quindi testi UI, messaggi, titoli, caption, warning/error, export labels, ecc.) e (ii) una sezione iniziale di tutorial dettagliato, mostrata all’avvio dell’app.
-
-**Ipotesi**
-Interpreto “tutte le stringhe in inglese” come: tradurre in inglese tutti i testi mostrati all’utente (Streamlit labels/markdown/caption/warning/error/metric, nomi export, ecc.). Inoltre traduco anche docstring e commenti per coerenza, dato che sono comunque stringhe nel codice.
-
-**Valutazioni tecniche**
-Sotto trovi lo script completo aggiornato: UI totalmente in inglese + tutorial iniziale (collassabile) + supporto AHP Standard/Express con scelta del reference factor e ricostruzione della matrice completa. Il layer ISO/IEC 27005 e il resto della logica rimangono invariati.
-
-```python
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -1167,6 +1157,3 @@ At any point, you can download a full JSON backup and restore it later to avoid 
 
 if __name__ == "__main__":
     main()
-```
-
-Se vuoi che il tutorial sia “paper-ready” (stesso contenuto ma in stile metodologico da sezione “Tool usage / Experimental protocol”), posso riscriverlo in inglese accademico, mantenendolo comunque dentro l’app.
